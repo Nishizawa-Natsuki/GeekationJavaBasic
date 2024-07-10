@@ -9,9 +9,9 @@ public class ComparisonLogicalOperators {
 		System.out.println(isGreaterA);
 		
 		
-		int isSunny = 8;
-		int isWarm = 8;
-		boolean andResultA = (isSunny > 1 && isWarm > 5);
+		boolean isSunny = true;
+		boolean isWarm = true;
+		boolean andResultA = (isSunny && isWarm);
 		System.out.println(andResultA);
 		
 		int x = 3;
