@@ -13,7 +13,7 @@ public class Main {
 			System.out.println("num1とnum2は0より大きい値にしてください。");
 			return;
 		}
-		
+			
 		if (num1 >= num2) {
 			System.out.println("num2はnum1より大きい値にしてください。");
 			return;
@@ -39,6 +39,8 @@ public class Main {
 				System.out.println(i + "は5の倍数です。");
 				continue;
 			}
+			
+			System.out.println(i);
 		}
 	}
 }
